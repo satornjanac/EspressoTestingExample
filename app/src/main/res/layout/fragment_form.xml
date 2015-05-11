@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".FormActivityFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/PaddingTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/name_label"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/name"
+                style="@style/PaddingTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/PaddingTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/surname_label"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/surname"
+                style="@style/PaddingTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/PaddingTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gender_label"
+                android:textSize="12sp" />
+
+            <RadioGroup
+                style="@style/PaddingTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/female"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="@string/female_label" />
+
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="@string/male_label" />
+
+            </RadioGroup>
+
+            <TextView
+                style="@style/PaddingTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/current_team_label"
+                android:textSize="12sp" />
+
+            <Spinner
+                android:id="@+id/current_team"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PaddingTheme"/>
+
+            <TextView
+                style="@style/PaddingTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/new_team_label"
+                android:textSize="12sp" />
+
+            <Spinner
+                android:id="@+id/new_team"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PaddingTheme"/>
+
+            <TextView
+                style="@style/PaddingTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/technology_label"
+                android:textSize="12sp" />
+
+            <Spinner
+                android:id="@+id/technology"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PaddingTheme"/>
+
+            <TextView
+                style="@style/PaddingTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/level_label"
+                android:textSize="12sp" />
+
+            <Spinner
+                android:id="@+id/level"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/PaddingTheme"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/submit_label"
+                    android:textAllCaps="false"/>
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/cancel_label"
+                    android:textAllCaps="false"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

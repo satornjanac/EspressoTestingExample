@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">EsspressoTestsExamples</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_show_requests">Show requests</string>
+
+    <string name="name_label">Name</string>
+    <string name="surname_label">Surname</string>
+    <string name="gender_label">Gender</string>
+    <string name="male_label">Male</string>
+    <string name="female_label">Female</string>
+    <string name="current_team_label">Current Team</string>
+    <string name="new_team_label">Wanted Team</string>
+    <string name="technology_label">Technology</string>
+    <string name="level_label">Experience</string>
+    <string name="submit_label">Submit</string>
+    <string name="cancel_label">Cancel</string>
+    <string-array name="team_array">
+        <item>Sony</item>
+        <item>Adobe</item>
+        <item>Absolute</item>
+        <item>Plantronics</item>
+        <item>Plantronics Mobile</item>
+        <item>BSS</item>
+        <item>12Rockets</item>
+        <item>Cisco</item>
+    </string-array>
+    <string-array name="technology_array">
+        <item>Android</item>
+        <item>Java</item>
+        <item>Objectiv-C/iOS</item>
+        <item>Objectiv-C/MacOS</item>
+        <item>C++</item>
+        <item>Automation testing</item>
+        <item>Manual testing</item>
+        <item>UX/UI</item>
+    </string-array>
+    <string-array name="level_array">
+        <item>Intern</item>
+        <item>Junior Engineer</item>
+        <item>Engineer</item>
+        <item>Senior Engineer</item>
+        <item>Ninja</item>
+    </string-array>
+
+    <string name="empty_requests">There is no requests</string>
+</resources>
